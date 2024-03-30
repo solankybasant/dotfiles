@@ -1,0 +1,55 @@
+{
+    // General Settings
+    // Position TOP
+    "layer": "top",
+    "margin-top": 15,
+    "margin-bottom": 0,
+    "margin-left": 100,
+    "margin-right": 100,
+    "spacing":1,
+    // Load Modules
+    "include": [
+        "~/dotfiles/waybar/modules.json"
+    ],
+    
+
+
+
+    // Modules Left
+    "modules-left": [
+        "hyprland/workspaces",
+        "custom/cava-internal",
+        "hyprland/mode",
+    ],
+
+    // Modules Center
+    "modules-center": [
+        "custom/spotify"
+        
+    ],
+
+
+
+    // Modules Right    
+    "modules-right": [
+        "pulseaudio",
+        "custom/separator",
+
+        "backlight",
+        "custom/separator",
+
+        "battery",
+        "custom/separator",
+
+        "network",
+        "custom/separator",
+
+        "custom/cliphist",
+        "custom/separator",
+
+        "clock",
+        "custom/separator",
+        
+        "custom/exit"
+    ]
+}
